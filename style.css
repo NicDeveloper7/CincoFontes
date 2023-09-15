@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Josefin+Sans:ital@1&family=Lato:ital,wght@1,300&family=Merriweather:wght@300&family=Rubik+Mono+One&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-image: url(https://besthqwallpapers.com/Uploads/30-8-2018/63855/santos-fc-santos-futebol-clube-4k-paint-art-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caixa1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    width: 600px;
+    height: 700px;
+    border-radius: 20px;
+    transition: 0.5s ;
+    box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
+}
+.caixa1:hover{
+    background-color:transparent;
+    box-shadow: 10px 10px 0px 0px transparent;
+
+
+}
+
+.fonte1{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: rgb(149, 202, 139);
+}
+.fonte2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    color: rgb(177, 99, 93);
+}
+.fonte3 {
+    font-family: 'Josefin Sans', fantasy;
+    font-size: 40px;
+    color: rgb(204, 204, 123);
+}
+
+.fonte4 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+    color: rgb(148, 46, 161);
+}
+
+.fonte5 {
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 30px;
+    color: rgb(177, 62, 129);
+}
+
+
